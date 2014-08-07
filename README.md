@@ -86,6 +86,16 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
     > > > DOCTYPEs are required for legacy reasons. When omitted, browsers tend to use a different rendering mode that is incompatible with some specifications. Including the DOCTYPE in a document ensures that the browser makes a best-effort attempt at following the relevant specifications.
     
 * What's the difference between standards mode and quirks mode?
+    > Layout engines in web browsers nowadays uses three modes: quirks mode, almost standards mode and standards mode.
+    > > In **quirks mode**, layout emulates nonstandard behavior in Navigator 4 and IE 5 for Windows. 
+    > >
+    > > In **full standard mode**, the behavior is according to HTML and CSS specification.
+    > > 
+    > > In **almost standards mode**, there are only a very small number of quirks implemented.
+    > > 
+    > > [Mozila Quirks Mode Behavior](https://developer.mozilla.org/en-US/docs/Mozilla_Quirks_Mode_Behavior)
+    > > [Internet Explorer compatibility modes](http://goo.gl/aJpR2X)
+    
 * What are the limitations when serving XHTML pages?
   * Are there any problems with serving pages as `application/xhtml+xml`?
 * How do you serve a page with content in multiple languages?
