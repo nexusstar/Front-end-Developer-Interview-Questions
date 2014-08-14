@@ -100,6 +100,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
     [Internet Explorer compatibility modes](http://goo.gl/aJpR2X)
     
 * What are the limitations when serving XHTML pages?
+
     * XHTML does not promote separation of content and presentation any more than HTML does.
     * Most XHTML pages on the Web are not parsed as XML by today's web browsers.
     * XHTML is not extensible
