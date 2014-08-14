@@ -100,7 +100,18 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
     [Internet Explorer compatibility modes](http://goo.gl/aJpR2X)
     
 * What are the limitations when serving XHTML pages?
-  * Are there any problems with serving pages as `application/xhtml+xml`?
+    * XHTML does not promote separation of content and presentation any more than HTML does.
+    * Most XHTML pages on the Web are not parsed as XML by today's web browsers.
+    * XHTML is not extensible
+    
+        In XHTML you can use additional namespaces to create whatever element types you want. 
+        However, the XHTML namespace itself has a limited set of tags just like HTML.
+       
+    * Are there any problems with serving pages as `application/xhtml+xml`?
+     
+        prior to version 9, Microsoft® Internet Explorer only supports XHTML if 
+        it is served with MIME media type text/html rather than the recommended `application/xhtml+xml`.
+       
 * How do you serve a page with content in multiple languages?
   * What kind of things must you be wary of when design or developing for multilingual sites?
 * What are `data-` attributes good for?
@@ -111,6 +122,17 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 ####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
 
 * Describe what a "reset" CSS file does and how it's useful.
+
+    The CSS Reset __removes the inconsistent styling of HTML elements provided by browsers__.
+     
+    This creates a dependably flat foundation to build upon.
+     
+    The advantages for using "reset" CSS file are:
+        
+    + They provide a blank canvas; any styles applied are (almost) certain to be your own.
+    + Development can be more logical: you’re adding styles rather than removing or modifying them.
+    + Browser compatibility issues can be minimized.
+      
 * Describe Floats and how they work.
 * Describe z-index and how stacking context is formed.
 * What are the various clearing techniques and which is appropriate for what context?
