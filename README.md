@@ -104,9 +104,9 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
     * XHTML does not promote separation of content and presentation any more than HTML does.
     * Proper XHTML is an application of XML and as such requires that authors follow strict rules when authoring XHTML. In particular:
     
-        Raw < and & characters are not allowed except inside of CDATA Sections (<![CDATA[ ... ]]>).
-        Comments (<!—— ... ——>) must not contain double dashes (——).
-        Content contained within Comments (<!—— ... ——>) can be ignored.
+        1. Raw < and & characters are not allowed except inside of CDATA Sections (<![CDATA[ ... ]]>).
+        2. Comments (<!—— ... ——>) must not contain double dashes (——).
+        3. Content contained within Comments (<!—— ... ——>) can be ignored.
     
     * XHTML is not extensible
     
@@ -124,6 +124,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
         Inline style and script tags can cause problems in XHTML when it is treated as XML rather than HTML.
         
     [Using CSS and JavaScript in XHTML - MDN](http://goo.gl/ApM59d)
+    
     [XHTML™ 1.0](http://www.w3.org/TR/xhtml1/)
        
 * How do you serve a page with content in multiple languages?
