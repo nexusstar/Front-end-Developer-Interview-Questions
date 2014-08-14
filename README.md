@@ -102,16 +102,29 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What are the limitations when serving XHTML pages?
 
     * XHTML does not promote separation of content and presentation any more than HTML does.
-    * Most XHTML pages on the Web are not parsed as XML by today's web browsers.
+    * Proper XHTML is an application of XML and as such requires that authors follow strict rules when authoring XHTML. In particular:
+    
+        Raw < and & characters are not allowed except inside of CDATA Sections (<![CDATA[ ... ]]>).
+        Comments (<!—— ... ——>) must not contain double dashes (——).
+        Content contained within Comments (<!—— ... ——>) can be ignored.
+    
     * XHTML is not extensible
     
         In XHTML you can use additional namespaces to create whatever element types you want. 
         However, the XHTML namespace itself has a limited set of tags just like HTML.
        
     * Are there any problems with serving pages as `application/xhtml+xml`?
-     
-        prior to version 9, Microsoft® Internet Explorer only supports XHTML if 
+    
+        When an XHTML page is served with MIME type text/html it is treated by all browsers as if it were nothing more than HTML. 
+        However when an XHTML page is served with MIME type text/xml or application/xhtml+xml,
+        then it should be treated as an XML document which must conform to the strict rules for authoring and displaying XML.
+        Prior to version 9, Microsoft® Internet Explorer only supports XHTML if 
         it is served with MIME media type text/html rather than the recommended `application/xhtml+xml`.
+        
+        Inline style and script tags can cause problems in XHTML when it is treated as XML rather than HTML.
+        
+    [Using CSS and JavaScript in XHTML - MDN](http://goo.gl/ApM59d)
+    [XHTML™ 1.0](http://www.w3.org/TR/xhtml1/)
        
 * How do you serve a page with content in multiple languages?
   * What kind of things must you be wary of when design or developing for multilingual sites?
