@@ -73,5 +73,3 @@ Unlike assisting technologies such as screen readers, Google does not recognise 
 Google tries to work out the main languages of your pages itself. In order to make language identification easier for Google, Google recommends only using one language per page.
 
 [Google Content guidelines](http://goo.gl/AVoUfJ)
-
-[How to manage language and region  - MSDN] (http://goo.gl/CETFkz)
