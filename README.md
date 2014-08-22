@@ -17,6 +17,7 @@ This repo contains a number of front-end interview questions that can be used wh
   1. [Coding Questions](#jscode)
   1. [Fun Questions](#fun)
   1. [Other Great References](#references)
+  1. [Answers](#answers)
 
 ####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
 
@@ -77,15 +78,10 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
-* What's a `doctype` do?
+[HTML Answers](#html_a)
 
-    DOCTYPE is an instruction that associates a particular SGML or XML document with a document type definition DTD.
-    [Wikipedia](http://en.wikipedia.org/wiki/Document_type_declaration)
-    The HTML layout engines in modern web browsers perform DOCTYPE "sniffing" or "switching", wherein the DOCTYPE in a document served as text/html determines a layout mode, such as "quirks mode" or "standards mode".
-    [HTML Living standard](http://www.whatwg.org/specs/web-apps/current-work/multipage/syntax.html#the-doctype)
-    DOCTYPEs are required for legacy reasons. When omitted, browsers tend to use a different rendering mode that is incompatible with some specifications. Including the DOCTYPE in a document ensures that the browser makes a best-effort attempt at following the relevant specifications.
-    
-    
+* What's a `doctype` do? [Answer](Answers\HTML.md\#q1)
+
 * What's the difference between standards mode and quirks mode?
 
     Layout engines in web browsers nowadays uses three modes: quirks mode, almost standards mode and standards mode.
@@ -298,3 +294,4 @@ foo.push(2);
 * http://css-tricks.com/interview-questions-css/
 * http://davidshariff.com/quiz/
 * http://blog.sourcing.io/interview-questions
+
