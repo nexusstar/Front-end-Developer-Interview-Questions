@@ -57,9 +57,17 @@ Inline style and script tags can cause problems in XHTML when it is treated as X
 The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.
     
 If you wanted to include a passage in Bulgarian you would need to use the `lang` attribute to mark the change in language.
-The 'lang' attribute can be used with almost every HTML element, making it very easy to change languages within a page.
+The `lang` attribute can be used with almost every HTML element, making it very easy to change languages within a page.
 To include a Bulgarian quotation on an English page you would simply add the lang attribute to the `blockquote` tag:
 
     <blockquote lang=”bg”>
     <p>Това, дето ми е на главата, мога да сваля, но това, дето ми е в сърцето, не мога да извадя.</p>
     </blockquote>
+
+#### What kind of things must you be wary of when design or developing for multilingual sites?
+
+If you don't provide a primary language code or set the code incorrectly it may be impossible for someone using a screen reader or Braille device to understand the content. 
+If the primary language of the web page has not been identified, screen reading software in general will read out the content in the same language as the default setting for the screen reader.
+
+Unlike assisting technologies such as screen readers, Google does not recognise language identifiers such as 'lang' attributes in the code of the page. 
+Google tries to work out the main languages of your pages itself. In order to make language identification easier for Google, Google recommends only using one language per page.

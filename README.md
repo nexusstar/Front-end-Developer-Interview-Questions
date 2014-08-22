@@ -84,7 +84,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What's the difference between standards mode and quirks mode? [Answer](Answers/HTML.md#q2)
 * What are the limitations when serving XHTML pages? [Answer](Answers/HTML.md#q3)
   * Are there any problems with serving pages as `application/xhtml+xml`?     
-* How do you serve a page with content in multiple languages?
+* How do you serve a page with content in multiple languages? [Answer](Answers/HTML.md#q4)
   * What kind of things must you be wary of when design or developing for multilingual sites?
 * What are `data-` attributes good for?
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
