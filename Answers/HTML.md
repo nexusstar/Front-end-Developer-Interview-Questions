@@ -1,6 +1,6 @@
 # HTML Questions Answers And External Sources
 
-###<a name='#q1'>What's a `doctype` do? </a>
+###<a name='q1'>What's a `doctype` do? </a>
     
 DOCTYPE is an instruction that associates a particular SGML or XML document with a document type definition DTD.
 
@@ -13,7 +13,7 @@ The HTML layout engines in modern web browsers perform DOCTYPE "sniffing" or "sw
 DOCTYPEs are required for legacy reasons. When omitted, browsers tend to use a different rendering mode that is incompatible with some specifications. Including the DOCTYPE in a document ensures that the browser makes a best-effort attempt at following the relevant specifications.
 
 
-###<a name ='#q2'>What's the difference between standards mode and quirks mode?</a>
+###<a name ='q2'>What's the difference between standards mode and quirks mode?</a>
 
 Layout engines in web browsers nowadays uses three modes: quirks mode, almost standards mode and standards mode.
 
@@ -28,7 +28,7 @@ In **almost standards mode**, there are only a very small number of quirks imple
 [Internet Explorer compatibility modes](http://goo.gl/aJpR2X)
  
   
-###<a name ='#q3'>What are the limitations when serving XHTML pages?</a>
+###<a name ='q3'>What are the limitations when serving XHTML pages?</a>
 
 * XHTML does not promote separation of content and presentation any more than HTML does.
 

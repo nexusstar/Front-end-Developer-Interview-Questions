@@ -1,6 +1,6 @@
 # CSS Questions Answers And External Sources
 
-###<a name='#q1'>Describe what a "reset" CSS file does and how it's useful.</a>
+###<a name='q1'>Describe what a "reset" CSS file does and how it's useful.</a>
 
 The CSS Reset __removes the inconsistent styling of HTML elements provided by browsers__.
  
@@ -12,7 +12,7 @@ The advantages for using "reset" CSS file are:
 * Development can be more logical: you’re adding styles rather than removing or modifying them.
 * Browser compatibility issues can be minimized.
 
-###<a name='#q2'>Describe Floats and how they work.</a>
+###<a name='q2'>Describe Floats and how they work.</a>
 
 __Float__ is a CSS positioning property.
 
