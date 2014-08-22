@@ -1,6 +1,6 @@
 # HTML Questions Answers and external sources
 
-1. <a name='q1'>What's a `doctype` do? </a>
+1. <a name='#q1'>What's a `doctype` do? </a>
    
     DOCTYPE is an instruction that associates a particular SGML or XML document with a document type definition DTD.
     
