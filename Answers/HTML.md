@@ -54,7 +54,7 @@ Inline style and script tags can cause problems in XHTML when it is treated as X
 
 ###<a name ='q4'>How do you serve a page with content in multiple languages?</a>
 
-    The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.
+The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.
     
 If you wanted to include a passage in Bulgarian you would need to use the `lang` attribute to mark the change in language.
 The 'lang' attribute can be used with almost every HTML element, making it very easy to change languages within a page.
