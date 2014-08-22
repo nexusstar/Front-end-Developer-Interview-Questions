@@ -78,7 +78,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
-[HTML Answers](#html_a)
+[HTML Answers](Answers/HTML.md)
 
 * What's a `doctype` do? [Answer](Answers/HTML.md#q1)
 * What's the difference between standards mode and quirks mode? [Answer](Answers/HTML.md#q2)
