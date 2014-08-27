@@ -125,7 +125,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 ####[[⬆]](#toc) <a name='js'>JS Questions:</a>
 
-* Explain event delegation
+* Explain event delegation [Answer](Answers/JS.md#q1)
 * Explain how `this` works in JavaScript
 * Explain how prototypal inheritance works
 * How do you go about testing your JavaScript?
@@ -164,7 +164,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain how you would get a query string parameter from the browser window's URL.
 * Explain the same-origin policy with regards to JavaScript.
 * Describe inheritance patterns in JavaScript.
-* Make this work: [Answer](Answers/JS.md#q1)
+* Make this work: [Answer](Answers/JS.md#q2)
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```

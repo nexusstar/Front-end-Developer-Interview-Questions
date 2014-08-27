@@ -1,4 +1,4 @@
-# CSS Questions Answers And External Sources
+# CSS Answers And External Sources
 
 ###<a name='q1'>Describe what a "reset" CSS file does and how it's useful.</a>
 

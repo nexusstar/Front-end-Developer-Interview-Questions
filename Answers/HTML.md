@@ -1,4 +1,4 @@
-# HTML Questions Answers And External Sources
+# HTML Answers And External Sources
 
 ###<a name='q1'>What's a `doctype` do? </a>
     
