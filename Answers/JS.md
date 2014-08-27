@@ -7,6 +7,6 @@
 ```javascript
 //Only add this implementation if one does not already exist.
 if(Array.prototype.duplicate == null){
-    Array.prototype.duplicate = function(){ return this.concat(this); }
+   Array.prototype.duplicate = function(){ return this.concat(this); }
 }
 ```
