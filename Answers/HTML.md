@@ -73,3 +73,8 @@ Unlike assisting technologies such as screen readers, Google does not recognise 
 Google tries to work out the main languages of your pages itself. In order to make language identification easier for Google, Google recommends only using one language per page.
 
 [Google Content guidelines](http://goo.gl/AVoUfJ)
+
+####<a name = 'q5'>What are `data-` attributes good for?</a>
+
+`data-*` attributes are good for storing extra information to standard HTML element.
+General rule of thumb is to not use data atributest to store content that will be visible     
