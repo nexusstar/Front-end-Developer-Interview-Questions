@@ -78,3 +78,46 @@ Google tries to work out the main languages of your pages itself. In order to ma
 
 `data-*` attributes are good for storing extra information to standard HTML element.
 General rule of thumb is to not use data atributest to store content that will be visible     
+
+####<a name = 'q6'>Consider HTML5 as an open web platform. What are the building blocks of HTML5?</a>
+
+####<a name = 'q7'>Describe the difference between cookies, sessionStorage and localStorage.</a>
+
+The common name for this are Web Storage for storing information on client machine, places to store data.
+  * Save user settings, so next time he opens the application, they can be loaded
+  
+Cookies - accessible only from a single document
+
+    Can store only plain text in the user's browsers(different cookies for different browser)
+    It's browser job to store cookies.
+    Cookies are attached to the headers of every HTTP request to the server.
+    Can be read and set by JS
+    
+    Cookie consist of three parts
+    
+     * Name - value pair that holds the cookie information
+     * Expire date, after which this cookie is not available
+     * Domain and path to the server, that the cookie belongs to
+
+localStorage - accessible only from a single document and is per document storage
+Can store 
+* Accessible through `document.localStorage`
+* Similar to cookie but can store much more data
+* Saves data as string
+* Properties of localStorage: 
+`setItem(key, value), getItem(key), removeItem(key), length)`
+
+```javascript
+function saveState(text){
+ localStorage["text"] = text; //same as localStorage.setValue("text", text);
+}
+
+function restoreState(text){
+    return localStorage["text"]; //same as return localStorage.getValue("text");
+}
+````
+    
+sessionStorage - accessible only when document is open
+
+
+####<a name = 'q7'>Can you explain the difference between `GET` and `POST`?</a>
