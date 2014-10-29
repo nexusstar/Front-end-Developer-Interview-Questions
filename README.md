@@ -133,7 +133,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What's a hashtable?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`. 
   * What needs to be changed to properly make it an IIFE?
-* What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
+* What's the difference between a variable that is: `null`, `undefined` or `undeclared`? [Answer](Answers/JS.md#q8)
   * How would you go about checking for any of these states?
 * What is a closure, and how/why would you use one?
 * What's a typical use case for anonymous functions?
