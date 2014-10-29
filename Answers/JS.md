@@ -40,7 +40,8 @@ document.getElementById("parent-list").addEventListener("click",function(e) {
     * What needs to be changed to properly make it an IIFE?</a>
     
 ###<a name='q8'> What's the difference between a variable that is: `null`, `undefined` or `undeclared`?</a>
-    * How would you go about checking for any of these states?
+
+####How would you go about checking for any of these states?
     
 `null` indicates absence of value and is used to indicate "no value" for `number` `string` or `object` 
     ```javascript
