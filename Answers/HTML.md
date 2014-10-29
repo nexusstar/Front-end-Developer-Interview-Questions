@@ -119,5 +119,4 @@ function restoreState(text){
     
 sessionStorage - accessible only when document is open
 
-
 ####<a name = 'q7'>Can you explain the difference between `GET` and `POST`?</a>
