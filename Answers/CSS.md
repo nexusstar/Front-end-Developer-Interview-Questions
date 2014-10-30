@@ -15,12 +15,7 @@ The advantages for using "reset" CSS file are:
 ###<a name='q2'>Describe Floats and how they work.</a>
 
 __Float__ is a CSS positioning property.
-
-Elements with the CSS float property applied to them are just like the images in the print layout where the text flows around them.
-
-Floated elements remain a part of the flow of the web page.
-
-There are four valid values for the float property.
+Elements with the CSS float property applied to them are just like the images in the print layout where the text flows around them.Floated elements remain a part of the flow of the web page.There are four valid values for the float property.
  
 * `Left` and `Right` float elements those directions respectively.
 * `None` (the default) ensures the element will not float

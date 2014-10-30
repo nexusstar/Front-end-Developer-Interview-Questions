@@ -154,7 +154,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * Explain how JSONP works (and how it's not really AJAX)
 * Have you ever used JavaScript templating?
   * If so, what libraries have you used? (Mustache.js, Handlebars etc.)
-* Explain "hoisting".
+* Explain "hoisting". [Answer](Answers/JS.md#q25)
 * Describe event bubbling.
 * What's the difference between an "attribute" and a "property"?
 * Why is extending built in JavaScript objects not a good idea?

@@ -1,4 +1,5 @@
 # JavaScript Answers And External Sources
+
 ###<a name='q1'>Explain event delegation</a>
 
 Event delegation allows you to avoid adding event listeners to specific nodes; 
@@ -90,8 +91,23 @@ document.getElementById("parent-list").addEventListener("click",function(e) {
 
 
 ###<a name='q25'> Explain "hoisting".</a>
-
-
+As JavaScript uses functional scope declared variables are visible throughout the body of the function.
+So when one variable is declared it's 'hoisted' to the top of function body.
+ ```javascript
+ function foo(){
+ console.log(hoistedVar); 	//=> variable hoistedVar exists but is undefined
+ var hoistedVar = "local";	//=> although we declare and initialize the variable here
+ }
+ ```
+ The actual JavaScript code is:
+  ```javascript
+  function foo(){
+  var hoistedVar;
+  console.log(hoistedVar); 	//=> variable hoistedVar exists but is undefined
+  hoistedVar = "local";	//=> although we declare and initialize the variable here
+  }
+  ```
+ 
 ###<a name='q26'> Describe event bubbling.</a>
 
 ###<a name='q27'> What's the difference between an "attribute" and a "property"?</a>
