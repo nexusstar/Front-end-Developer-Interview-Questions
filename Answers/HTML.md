@@ -77,7 +77,23 @@ Google tries to work out the main languages of your pages itself. In order to ma
 ####<a name = 'q5'>What are `data-` attributes good for?</a>
 
 `data-*` attributes are good for storing extra information to standard HTML element.
-General rule of thumb is to not use data atributest to store content that will be visible     
+The data attribute name must be at least one character long and must be prefixed with 'data-'. It should not contain any uppercase letters.
+
+    Custom data attributes are intended to store custom data private to the page or application,
+    for which there are no more appropriate attributes or elements.
+
+    These attributes are not intended for use by software that is not known to the administrators
+    of the site that uses the attributes. For generic extensions that are to be used by multiple
+    independent tools, either this specification should be extended to provide the feature explicitly,
+    or a technology like microdata should be used (with a standardised vocabulary).
+
+   [W3C Specification](http://www.w3.org/html/wg/drafts/html/master/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes)
+
+Data attributes can be used for many things such as filtering, store initial values (such as height or opacity to be used with JavaScript).
+Bootstrap uses data attributes to configure plugins via JavaScript.
+Kendo UI also uses data attributes to initialize and configure its widgets.
+
+
 
 ####<a name = 'q6'>Consider HTML5 as an open web platform. What are the building blocks of HTML5?</a>
 
