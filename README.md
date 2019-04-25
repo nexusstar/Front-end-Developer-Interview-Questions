@@ -1,13 +1,21 @@
-#Front-end Job Interview Questions
+# Front-end Job Interview Questions
 
-This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
+This file contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
-[Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) is also a great resource to read up on before you head into an interview.
+**Note:** Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
 
-**Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
+## Table of Contents
 
-## <a name='toc'>Table of Contents</a>
-
+  1. [General Questions](src/questions/general-questions.md)
+  1. [HTML Questions](src/questions/html-questions.md)
+  1. [CSS Questions](src/questions/css-questions.md)
+  1. [JS Questions](src/questions/javascript-questions.md)
+  1. [Accessibility Questions](https://scottaohara.github.io/accessibility_interview_questions/) (external link)
+  1. [Testing Questions](src/questions/testing-questions.md)
+  1. [Performance Questions](src/questions/performance-questions.md)
+  1. [Network Questions](src/questions/network-questions.md)
+  1. [Coding Questions](src/questions/coding-questions.md)
+  1. [Fun Questions](src/questions/fun-questions.md)
   1. [Original Contributors](#contributors)
   1. [General Questions](#general)
   1. [HTML Questions](#html)
@@ -18,65 +26,23 @@ This repo contains a number of front-end interview questions that can be used wh
   1. [Fun Questions](#fun)
   1. [Other Great References](#references)
   1. [Answers](#answers)
+## Getting Involved
 
-####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
+  1. [Contributors](#contributors)
+  1. [How to Contribute](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/.github/CONTRIBUTING.md)
+  1. [License](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/LICENSE.md)
 
-The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
+## Contributors:
 
-* [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
-* [@cowboy](http://twitter.com/cowboy) - http://benalman.com
-* [@ajpiano](http://ajpiano) - http://ajpiano.com
-* [@SlexAxton](http://twitter.com/slexaxton) - http://alexsexton.com
-* [@boazsender](http://twitter.com/boazsender) - http://boazsender.com
-* [@miketaylr](http://twitter.com/miketaylr) - http://miketaylr.com
-* [@vladikoff](http://twitter.com/vladikoff) - http://vladfilippov.com
-* [@gf3](http://twitter.com/gf3) - http://gf3.ca
-* [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
-* [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
+This project started in 2009 as a collaboration of [@paul_irish](https://twitter.com/paul_irish) [@bentruyman](https://twitter.com/bentruyman) [@cowboy](https://twitter.com/cowboy) [@ajpiano](https://twitter.com/ajpiano)  [@SlexAxton](https://twitter.com/slexaxton) [@boazsender](https://twitter.com/boazsender) [@miketaylr](https://twitter.com/miketaylr) [@vladikoff](https://twitter.com/vladikoff) [@gf3](https://twitter.com/gf3) [@jon_neal](https://twitter.com/jon_neal) [@sambreed](https://twitter.com/sambreed) and [@iansym](https://twitter.com/iansym).
 
-####[[⬆]](#toc) <a name='general'>General Questions:</a>
+This project is currently maintained by:
 
-* What did you learn yesterday/this week?
-* What excites or interests you about coding?
-* What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
-* Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
-* Which version control systems are you familiar with?
-* Can you describe your workflow when you create a web page?
-* If you have 5 different stylesheets, how would you best integrate them into the site?
-  * Points off for `@import` directives.
-  * File concatenation
-* Can you describe the difference between progressive enhancement and graceful degradation?
-  * Bonus points for describing feature detection
-* Explain what "Semantic HTML" means.
-* How would you optimize a websites assets/resources?
-  * Looking for a number of solutions which can include:
-    * File concatenation
-    * File minification
-    * CDN Hosted
-    * Caching
-    * etc.
-* Traditionally, why has it been better to serve site assets from multiple domains?
-  * How many resources will a browser download from a given domain at a time?
-  * What are the exceptions?
-    * Bonus points for identifying mobile as a possible downside (http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)
-    * Bonus points for identifying SDPY as an exception
-* Name 3 ways to decrease page load. (perceived or actual load time)
-* If you jumped on a project and they used tabs and you used spaces, what would you do?
-  * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
-  * Conform to the conventions (stay consistent)
-  * `issue :retab! command`
-* Write a simple slideshow page
-  * Bonus points if it does not use JS.
-* What tools do you use to test your code's performance?
-  * Profiler, JSPerf, Dromaeo
-* If you could master one technology this year, what would it be?
-* What are the differences between Long-Polling, Websockets and SSE?
-* Explain the importance of standards and standards bodies.
-* What is FOUC? How do you avoid FOUC?
-* Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
+- [@roblarsen](https://github.com/roblarsen)
+- [@cezaraugusto](https://github.com/cezaraugusto)
+- [@vvscode](https://github.com/vvscode)
 
-####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
+It has since been active thanks to these [incredibly wonderful people](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/CONTRIBUTORS.md).
 
 [HTML Answers](Answers/HTML.md)
 
@@ -245,3 +211,4 @@ foo.push(2);
 * http://davidshariff.com/quiz/
 * http://blog.sourcing.io/interview-questions
 
+Feeling inspired? Check our [Contributing guide](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/.github/CONTRIBUTING.md) to get started!
